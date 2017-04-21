@@ -1,6 +1,6 @@
 {
   "name": "leroy",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "Css modules' monster for React className",
   "main": "index.js",
   "scripts": {
