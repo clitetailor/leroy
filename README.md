@@ -13,7 +13,7 @@ npm install --save leroy
 Getting Started
 ---------------
 
-```jsx
+```javascript
 import { leroy } from 'leroy'
 import styles from './index.css'
 
@@ -23,7 +23,7 @@ class App extends React.Component {
 			<div
 				className={leroy(styles).add('a', true)
 					.add('b', false)
-					.add('c', true);}
+					.add('c', true).put()}
 			/>
 		)
 	}
@@ -33,7 +33,7 @@ class App extends React.Component {
 Usage
 -----
 
-```jsx
+```javascript
 const styles = {
 	a: "a1",
 	b: "b2",
@@ -42,13 +42,17 @@ const styles = {
 
 leroy(styles).add('a', true)
 	.add('b', false)
-	.add('c', true);
+	.add('c', true)
+	.put();
 // => 'a1 c3'
 
 leroy(styles).bulk({
 	a: true,
 	b: false,
 	c: true
-})
-// 'a1 c3
+}).put()
+// => 'a1 c3'
+
+leroy(styles).cls('a b').put()
+// => 'a1 b2'
 ```
