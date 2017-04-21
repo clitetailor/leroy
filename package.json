@@ -1,7 +1,7 @@
 {
   "name": "leroy",
   "version": "0.0.1",
-  "description": "Css module monster for React className",
+  "description": "Css modules' monster for React className",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,13 @@
     "classname"
   ],
   "author": "clitetailor",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clitetailor/leroy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clitetailor/leroy/issues"
+  },
+  "homepage": "https://github.com/clitetailor/leroy#readme"
 }
