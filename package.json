@@ -2,7 +2,7 @@
   "name": "leroy",
   "version": "0.0.2-0",
   "description": "Css modules' monster for React className",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
